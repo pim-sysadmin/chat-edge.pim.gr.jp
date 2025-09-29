@@ -7,4 +7,4 @@ git config --global --add safe.directory /home/docker/chat-edge.pim.gr.jp
 git config pull.rebase false
 git config core.quotepath false
 
-git -c core.sshCommand="ssh -i id_ed25519" "$*"
+git -c core.sshCommand="ssh -i id_ed25519" "$@"
